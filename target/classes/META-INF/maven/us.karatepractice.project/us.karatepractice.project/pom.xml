@@ -19,6 +19,12 @@
             <version>1.2.0</version>
             <scope>test</scope>
         </dependency>
+          <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-core</artifactId>
+            <version>1.2.0</version>
+            <scope>test</scope>
+        </dependency>
         <!-- Faker Java is a library to for FAKE data -->
         <dependency>
             <groupId>com.github.javafaker</groupId>
