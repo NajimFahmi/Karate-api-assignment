@@ -9,7 +9,7 @@ public class TestRunner {
 
 		@Karate.Test
 		public Karate getAPITest() {
-			return Karate.run("reviewFeatures").relativeTo(getClass());
+			return Karate.run("SmokeTest.feature").relativeTo(getClass());
 					//.tags("@End2End");
 			
 		}
